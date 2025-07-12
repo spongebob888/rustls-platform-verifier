@@ -29,7 +29,7 @@ cert-logging = ["base64"]
 docsrs = ["jni"]
 
 [dependencies]
-rustls = { git = "https://github.com/spongebob888/rustls-jls", version = "0.23.25-1.0.2", default-features = false, features = ["std", "ring"] }
+rustls = { git = "https://github.com/spongebob888/rustls-jls", version = "0.23.25-1.1.0", default-features = false, features = ["std", "ring"] }
 log = { version = "0.4" }
 base64 = { version = "0.22", optional = true } # Only used when the `cert-logging` feature is enabled.
 jni = { version = "0.21", default-features = false, optional = true } # Only used during doc generation
